@@ -86,6 +86,9 @@ public:
 
     bool isJavaScriptEnabled() const;
 
+    // 提供给外部将符号名称转成本地语言
+    static QString translateSymbolTypeTolocale(const QString &str);
+
 private:
     enum class Type {
         Invalid,

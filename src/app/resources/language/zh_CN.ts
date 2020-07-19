@@ -35,104 +35,118 @@
         <translation type="unfinished">参数冲突：--register and --unregister。</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="586"/>
+        <location filename="src/libs/registry/docset.cpp" line="722"/>
         <source>Attribute</source>
         <translation type="unfinished">属性</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="587"/>
         <source>binding</source>
-        <translation type="unfinished">绑定</translation>
+        <translation type="obsolete">绑定</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="588"/>
+        <location filename="src/libs/registry/docset.cpp" line="724"/>
+        <source>Binding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="src/libs/registry/docset.cpp" line="726"/>
         <source>Category</source>
         <translation type="unfinished">分类</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="589"/>
+        <location filename="src/libs/registry/docset.cpp" line="728"/>
         <source>Class</source>
         <translation type="unfinished">类</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="590"/>
+        <location filename="src/libs/registry/docset.cpp" line="730"/>
         <source>Constant</source>
         <translation type="unfinished">常量</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="591"/>
+        <location filename="src/libs/registry/docset.cpp" line="732"/>
         <source>Constructor</source>
         <translation type="unfinished">构造器</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="592"/>
+        <location filename="src/libs/registry/docset.cpp" line="734"/>
         <source>Enumeration</source>
         <translation type="unfinished">枚举</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="593"/>
+        <location filename="src/libs/registry/docset.cpp" line="736"/>
         <source>Event</source>
         <translation type="unfinished">事件</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="594"/>
+        <location filename="src/libs/registry/docset.cpp" line="738"/>
         <source>Field</source>
         <translation type="unfinished">字段</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="595"/>
+        <location filename="src/libs/registry/docset.cpp" line="740"/>
         <source>Function</source>
         <translation type="unfinished">函数</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="596"/>
+        <location filename="src/libs/registry/docset.cpp" line="742"/>
         <source>Guide</source>
         <translation type="unfinished">指南</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="597"/>
+        <location filename="src/libs/registry/docset.cpp" line="744"/>
         <source>Namespace</source>
         <translation type="unfinished">命名空间</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="598"/>
+        <location filename="src/libs/registry/docset.cpp" line="746"/>
         <source>Macro</source>
         <translation type="unfinished">宏</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="599"/>
+        <location filename="src/libs/registry/docset.cpp" line="748"/>
         <source>Method</source>
         <translation type="unfinished">方法</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="600"/>
+        <location filename="src/libs/registry/docset.cpp" line="750"/>
         <source>Operator</source>
         <translation type="unfinished">操作</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="601"/>
+        <location filename="src/libs/registry/docset.cpp" line="752"/>
         <source>Property</source>
         <translation type="unfinished">属性</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="602"/>
+        <location filename="src/libs/registry/docset.cpp" line="754"/>
         <source>Protocol</source>
         <translation type="unfinished">协议</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="603"/>
+        <location filename="src/libs/registry/docset.cpp" line="756"/>
         <source>Structure</source>
         <translation type="unfinished">结构</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="604"/>
+        <location filename="src/libs/registry/docset.cpp" line="758"/>
         <source>Type</source>
         <translation type="unfinished">类型</translation>
     </message>
     <message>
-        <location filename="src/libs/registry/docset.cpp" line="605"/>
+        <location filename="src/libs/registry/docset.cpp" line="760"/>
         <source>Variable</source>
         <translation type="unfinished">变量</translation>
+    </message>
+    <message>
+        <location filename="src/libs/registry/docset.cpp" line="762"/>
+        <source>Module</source>
+        <translation type="unfinished">模块</translation>
+    </message>
+    <message>
+        <location filename="src/libs/registry/docset.cpp" line="764"/>
+        <source>Directive</source>
+        <translation type="unfinished">指令</translation>
     </message>
 </context>
 <context>
