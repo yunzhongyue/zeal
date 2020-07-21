@@ -73,6 +73,47 @@
     </div>
   </section>
 
+  <script>
+    var lang_zh = {
+        "Welcome":"欢迎",
+        "Docs for everyone":"所有人的文档",
+        "Customize":"定制",
+        "Docsets":"文档集",
+        "Install and update docsets":"安装或更新文档集",
+        "Preferences":"偏好",
+        "Adjust application settings":"调整应用程序设置",
+        "Get in touch":"联系",
+        "Chat with developers and other users":"与开发者或其他网友交流",
+        "Contribute to the project":"支持项目发展",
+        "Report a problem":"反馈问题"
+    };
+
+    var languages = {
+        "zh":lang_zh,
+        "zh-CN":lang_zh
+    };
+
+    function translateTextNodeContent(parentNode){
+        if(parentNode.nodeType != 1) return;
+        if(parentNode.nodeName == 'STYLE'||parentNode.nodeName == 'SCRIPT') return;
+        var childs = parentNode.childNodes;
+        for(var i=0;i<childs.length;i++){
+            if(childs[i].nodeType == 3){
+                var text =  childs[i].textContent.trim();
+                if(text=='') continue;
+                console.log(text);
+                if(languages[navigator.language] && languages[navigator.language][text]){
+                    childs[i].textContent = childs[i].textContent.replace(text,languages[navigator.language][text]);
+                }
+            }else{
+                translateTextNodeContent(childs[i]);
+            }
+        }
+    }
+
+    translateTextNodeContent(document.documentElement);
+  </script>
+
   <script type="text/javascript" src="qrc:///qtwebchannel/qwebchannel.js"></script>
   <script>
     new QWebChannel(qt.webChannelTransport, function (channel) {
