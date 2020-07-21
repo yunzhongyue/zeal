@@ -11,7 +11,7 @@
 
 Zeal 是一个简单的离线文档浏览器，灵感来自于 [Dash](https://kapeli.com/dash).
 
-![Screenshot](https://i.imgur.com/qBkZduS.png)
+![Screenshot](https://images.gitee.com/uploads/images/2020/0721/221342_d174eccd_23532.png "2020-07-21_22-13.png")
 
 ## 下载
 
